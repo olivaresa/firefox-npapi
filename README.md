@@ -1,6 +1,6 @@
 # Firefox Docker Image
 
-A simple Docker image to run firefox 52 with support for java NPAPI
+Single Docker image to run firefox 52 with support for java NPAPI
 
 ### Get Docker File
 
