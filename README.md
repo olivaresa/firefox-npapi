@@ -4,7 +4,7 @@ A simple Docker image to run firefox 52 with support for java NPAPI
 
 ### Get Docker File
 
-git checkout
+`git clone https://github.com/olivaresa/firefox-npapi.git`
 
 ### Build Image
 
