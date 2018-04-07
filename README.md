@@ -1,21 +1,11 @@
-# Firefox Docker Image
+# About
 
-Single Docker image to run firefox 52 with support for java NPAPI
+Simple Docker image to run firefox v52 with support for Java NPAPI
 
-### Get Docker File
-
-`git clone https://github.com/olivaresa/firefox-npapi.git`
-
-### Build Image
-
-`docker build . -t olivaresa/firefox-npapi`
-
-### Build Container
+## How to use this image
 
 `docker run -v $HOME/Downloads:/home/firefox/Downloads:rw -v /tmp/.X11-unix:/tmp/.X11-unix -v /dev/snd:/dev/snd --privileged -e uid=$(id -u) -e gid=$(id -g) -e DISPLAY=unix$DISPLAY --name firefox-npapi olivaresa/firefox-npapi:latest`
 
-### Execute
-
-Run firefox container:
+### Run firefox
 
 `docker start firefox-npapi`
